@@ -34,16 +34,34 @@
     <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\Assert.AreEqual.cs" />
     <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\Assert.AreNotEqual.cs" />
     <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\Assert.Obsolete.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\AssertFailedException.cs" />
     <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\CallerArgumentExpressionAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\CleanupAttribute.cs" />
     <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\CollectionAssert.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\DataRowAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\ITestCategories.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\ITestDevice.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\ITestOnDevice.cs" />
     <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\NullableAttributes.cs" />
     <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\OutputHelper.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\SetupAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\SkipTestException.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestCategoryAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestClassAttribute.cs" />
     <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestExtensions.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestForPlatformAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestForTargetAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestForVirtualDeviceAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestMethodAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestOnPlatformAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestOnRealHardwareAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestOnTargetAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestOnVirtualDeviceAttribute.cs" />
+    <Compile Include="..\..\nanoFramework.TestFramework\source\TestFramework\TestRunner.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\nanoFramework.CoreLibrary\CoreLibrary.nfproj" />
   </ItemGroup>
-  <Import Project="..\..\nanoFramework.TestFramework\source\TestFrameworkShared\TestFrameworkShared.projitems" Label="Shared" />
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.CSharp.targets')" />
   <ProjectExtensions>
     <ProjectCapabilities>
